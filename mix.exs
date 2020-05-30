@@ -54,7 +54,7 @@ defmodule Hello.MixProject do
   #     $ mix setup
   #
   # See the documentation for `Mix` for more info on aliases.
-  defp aliases do
+  #defp aliases do
     [
       setup: ["deps.get", "ecto.setup", "cmd npm install --prefix assets"],
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
